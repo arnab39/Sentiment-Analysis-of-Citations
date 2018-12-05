@@ -1,0 +1,26 @@
+(6538, 237087)
+(6538, 80949)
+Original Configuration:
+/usr/local/lib/python3.5/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Macro F-score =  0.304932735426009
+Micro F-score =  0.8429752066115702
+
+Balanced loss (by inverse class frequency):
+Macro F-score =  0.024756852343059244
+Micro F-score =  0.03856749311294766
+
+Make the margin smaller, C= 50000
+Macro F-score =  0.544750447529512
+Micro F-score =  0.8636363636363636
+
+
+(6538, 8192)
+(6538, 2048)
+Limit size of TF-IDF vectors to 8192 for sentences and 2048 for dependencies:
+Macro F-score =  0.5793990816199633
+Micro F-score =  0.8581267217630854
+
+Change to bigrams for sentences:
+Macro F-score =  0.597497078630263
+Micro F-score =  0.862258953168044
